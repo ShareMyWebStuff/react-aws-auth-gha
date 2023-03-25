@@ -1,4 +1,5 @@
 name: Deploy Project
+# [push, workflow_dispatch] adds multiple event triggers
 on: push
 jobs:
   test:
