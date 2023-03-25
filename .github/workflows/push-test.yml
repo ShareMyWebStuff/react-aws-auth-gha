@@ -1,6 +1,7 @@
 name: Deploy Project
 # [push, workflow_dispatch] adds multiple event triggers
-on: push
+# on: push ## Was push but has been changed
+on: workflow_dispatch
 jobs:
   test:
     runs-on: ubuntu-latest
